@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDK JESTE</title>
+    <style>
+        main{
+            background-color:rgb(255, 255, 255);
+        }
+        input{
+            border-radius: 5px;
+            border-color:saddlebrown;
+            background-color:rgb(239, 235, 235);
+        }
+        button {
+            background-color:rgb(125, 240, 11);
+            border-radius: 5px;
+            border:none;
+        }
+        button {
+            background-color:rgb(125, 240, 11);
+            border-radius: 5px;
+            border:none;
+        }
+        button:hover {
+            background-color:rgb(35, 204, 35);
+        }
+        a{
+            text-decoration: none;
+            display:inline-block;
+            transition: transform 0.2s ease;
+        }
+        a:hover{
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    </style>
+    <script>
+        function soucet(){
+            let a = Number(document.kalk.a.value);
+            let b = Number(document.kalk.b.value);
+
+            let c = a+b;
+
+            document.getElementById('vysledek').textContent = c;
+        }
+    </script>
+</head>
+<body>
+    <marquee behavior="alternate" direction="right"><a href="#">Nefunkční odkaz</a><br><br></marquee>
+        
+    
+    <form name="kalk">
+    A: <input type="number" name="a" value="0"> <br>
+    B: <input type="number" name="b" value="0"><br>
+    <button type="button" onclick="soucet()">Vypočítat</button>
+    </form>
+
+    <p>Výsledek: <strong id="vysledek"></strong></p>
+
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+    margin: 10px;
+    background-color: black;
+}
+
+.kcd-image {
+    margin-top: 0;
+    margin-left: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    
+}
+.kcd-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.O-hre {
+    margin-left: 20px;
+    margin-top: 1px;
+    font-size: 20px;
+    color: white;
+    font-family: cinzel, sans-serif;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.O-hre:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
